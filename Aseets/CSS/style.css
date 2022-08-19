@@ -84,18 +84,7 @@ html{
     display: block;    
     transform: translateY(63px);
 }
-.title::after{
-    content: '';
-    background:  #a517ba;
-    height: 10px;
-    width: 50px;
-    margin-bottom: 40px;
-    margin-right: auto ;
-    margin-left: auto ;
-    display: block;    
-    transform: translateY( 8px);
 
-}
 #services .btn-primary{
     box-shadow:none ;
     padding: 8px 25px;
@@ -197,6 +186,12 @@ html{
     margin-top: 30px;
     background-image: linear-gradient(to right, #a517ba, #5a17);
 
+}
+#testimonials > div > div{
+    margin-top: 40px;
+}
+#services > div > div{
+    margin-top: 40px;
 }
 .copy{
     margin-bottom: 0;
